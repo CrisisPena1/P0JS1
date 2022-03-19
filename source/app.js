@@ -1,7 +1,7 @@
 const http = require("http");
 const express = require("express");
 const { append } = require("express/lib/response");
-const puerto = 8080;
+const puerto = 3000;
 const app = express();
 const path= require("path")
 const misRutas= require('./router/index');
