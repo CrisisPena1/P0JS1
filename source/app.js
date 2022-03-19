@@ -19,6 +19,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(misRutas);
 
 app.listen(puerto, ()=>{
-    console.log("iniciamos el puerto");
+    console.log("iniciamos el puerto 8080");
 
 })
